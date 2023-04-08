@@ -29,67 +29,67 @@
                     </ul>
                 </nav>
             </header>
-            <main>
-                <H2>PRODUCTOS</H2>
-                <!-- Listas ordenadas y no ordenadas -->
+            <main class="mainProductos">
+                <h2>PRODUCTOS</h2>
                 <div class="productos">
-                    <ul display:grid>
-                        <li>Remeras XL
-                            <ul>
-                            <li>Talle <select name="talle" id="talle">
-                                <option value="None">None</option>
-                                <option value="S">S</option>
-                                <option value="M">M</option>
-                                <option value="L">L</option>
-                                <option value="XL">XL</option>
-                            </select></li>
-                            <li>Color <select name="Color" id="Color">
+                    <h3>Remeras XL</h3>
+                    <form class="formProductos">
+                        <label for="talle">Talle</label>
+                        <select name="talle" id="talle">
+                            <option value="None">None</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <label for="color">Color:</label>
+                        <select name="color" id="color">
+                            <option value="Cualquiera">Cualquiera</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Marron">Marrón</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Crema">Crema</option>
+                        </select>
+                        <input type="button" value="Comprar">
+                    </form>
+                    <h3>Buzos Teddy</h3>
+                    <form class="formProductos">
+                        <label for="talle">Talle:</label>
+                        <select name="talle" id="talle">
+                          <option value="None">None</option>
+                          <option value="S">S</option>
+                          <option value="M">M</option>
+                          <option value="L">L</option>
+                          <option value="XL">XL</option>
+                        </select>
+                        <label for="color">Color:</label>
+                        <select name="color" id="color">
+                          <option value="Cualquiera">Cualquiera</option>
+                          <option value="Blanco">Blanco</option>
+                          <option value="Marron">Marrón</option>
+                          <option value="Negro">Negro</option>
+                          <option value="Crema">Crema</option>
+                        </select>
+                        <label>Combinación:</label>
+                        <div class="select50">
+                            <select name="color-combinado" id="color-combinado">
                                 <option value="Cualquiera">Cualquiera</option>
                                 <option value="Blanco">Blanco</option>
-                                <option value="Marron">Marron</option>
+                                <option value="Marron">Marrón</option>
                                 <option value="Negro">Negro</option>
-                                <option value="Crema"Crema>Crema</option>
-                            </select></li>
-                            </ul>
-                        </li>
-                        <br>
-                        <li>Buzos Teddy
-                            <ul>
-                                <li>Talle <select name="talle" id="talle">
-                                    <option value="None">None</option>
-                                    <option value="S">S</option>
-                                    <option value="M">M</option>
-                                    <option value="L">L</option>
-                                    <option value="XL">XL</option>
-                                </select></li>
-                                <li>Colores <select name="Color" id="Color">
-                                    <option value="Cualquiera">Cualquiera</option>
-                                    <option value="Blanco">Blanco</option>
-                                    <option value="Marron">Marron</option>
-                                    <option value="Negro">Negro</option>
-                                    <option value="Crema"Crema>Crema</option>
-                                </select></li>
-                                <li>Combinación 
-                                    <select name="ColorCombinado" id="ColorCombinado">
-                                    <option value="Cualquiera">Cualquiera</option>
-                                    <option value="Blanco">Blanco</option>
-                                    <option value="Marron">Marron</option>
-                                    <option value="Negro">Negro</option>
-                                    <option value="Crema">Crema</option>
-                                    </select>
-                                    y
-                                    <select name="SegundoColorCombinado" id="SegundoColorCombinado">
-                                    <option value="Cualquiera">Cualquiera</option>
-                                    <option value="Blanco">Blanco</option>
-                                    <option value="Marron">Marron</option>
-                                    <option value="Negro">Negro</option>
-                                    <option value="Crema">Crema</option>
-                                    </select>
-                                </li>
-                                <li><input type="button" value="Comprar" placeholder="Comprar"></li>
-                            </ul>
-                        </li>
-                    </ul>
+                                <option value="Crema">Crema</option>
+                            </select>
+                            <label class="labelCentrado">y</label>
+                            <select class="select50" name="segundo-color-combinado" id="segundo-color-combinado">
+                                <option value="Cualquiera">Cualquiera</option>
+                                <option value="Blanco">Blanco</option>
+                                <option value="Marron">Marrón</option>
+                                <option value="Negro">Negro</option>
+                                <option value="Crema">Crema</option>
+                            </select>
+                        </div>
+                        <input type="button" value="Comprar">
+                    </form>
                 </div>
             </main>
             <footer class="piedepagina">

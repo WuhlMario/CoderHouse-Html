@@ -11,9 +11,9 @@
     <body>
         <div class="gridIndex">
             <header>
-            <!--Titulo-->
+                <!--Titulo-->
                 <h1 class="titulo">BEAR <img class="mediana" src="../img/bear_logo-removebg-preview.png" alt="logo bear"></h1>
-            <!-- LOGO + NAV-->
+                <!-- NAV-->
                 <nav class="buscador">
                     <ul>
                         <!-- Etiquetas de enlace -->
@@ -28,16 +28,14 @@
                     </ul> 
                 </nav>
             </header>
-            <main>
+            <main class="mainContacto">
                 <h2>CONTACTO</h2>
                 <div class="contacto">
-                    <form action="mailto:wuhlalen@gmail.com"></form>
-                    <ul>
-                        <li><input type="text" id="Nombre" name="Nombre" placeholder="Nombre y apellido"></li>
-                        <li><input type="text" id="email" name="email" placeholder="Email"></li>
-                        <li><textarea class="textareaconsulta" type="text" spellcheck="true" placeholder="Consulta" maxlength="150" required rows="8"></textarea></li>
-                        <li><input type ="button" value="Enviar" placeholder="Enviar"></li>
-                    </ul>
+                    <form class="formContacto" action="mailto:wuhlalen@gmail.com"></form>
+                        <input type="text" id="nombre" name="Nombre" placeholder="Nombre y apellido">
+                        <input type="text" id="email" name="email" placeholder="Email">
+                        <textarea class="textareaconsulta" type="text" spellcheck="true" placeholder="Consulta" maxlength="150" required rows="8"></textarea>
+                        <input type ="button" value="Enviar" placeholder="Enviar">
                     </form>
                 </div>
             </main>
